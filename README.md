@@ -24,12 +24,12 @@ Users should be able to:
 - Desktop View - (./assets/images/desktop%20view%20screenshot.png)
 
 
-- Mobile View -![](./assets/images/mobile%20view%20screenshot.png)
+- Mobile View -(./assets/images/mobile%20view%20screenshot.png)
 
 ### Links
 
-- Solution URL: [sOLUTION URL](https://www.frontendmentor.io/solutions/qr-component-card-mobile-and-desktop-view-sk0hP1j5Wa)
-- Live Site URL: [Live Url](https://shaelle11.github.io/QR-code-component_responsive/)
+- Solution URL: [sOLUTION URL](https://www.frontendmentor.io/solutions/responsive-blog-card-component-WE-BknDvQF)
+- Live Site URL: [Live Url](https://shaelle11.github.io/Blog_card_component/)
 
 ### Built with
 
@@ -39,28 +39,23 @@ Users should be able to:
 - CSS Grid
 
 ### What I learned
-A container is needed for the contents of the card and another for better positioning especially if the card is not the only content or element in the webpage
+Best to place the image as a background url, especially when styling for radius for easy image padding or manipulation
 ```html
-<div class="position">
-  <div class="content">
-    <img src="./images/image-qr-code.png" alt="THE QR Code">
-    <h1>  Improve your front-end skills by building projects</h1>
-    <p>
-      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-  </div>
+<<div tabindex="2" aria-label="image" class="card_img" role="img">
 </div>
 ```
 ```css
-.position{
-    align-items: center;
-    width: 100vw;
-    height: 92vh;
-    display: flex;
-    justify-content: center;
- }
+.card .card_img{
+    background: url(./assets/images/illustration-article.svg);
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    border-radius: 5%;
+}
 ```
 ## Author
-
+- Website(Medium) [Nanji Lakan](https://medium.com/@Youtenstudio)
+-Website(Wordpress) [Youten Studio](https://youtenstudio.wordpress.com/)
 - Instagram - [Nanji Lakan](https://www.your-site.com)
 - Frontend Mentor - [@Shaelle11](https://www.frontendmentor.io/profile/Shaelle11)
 - Twitter - [@Nanji Lakan](https://twitter.com/NJamella3)
