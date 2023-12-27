@@ -21,10 +21,10 @@ Users should be able to:
 
 ### Screenshot
 
-- Desktop View - (./assets/images/desktop%20view%20screenshot.png)
+- Desktop View - ![](./assets/images/desktop%20view%20screenshot.png)
 
 
-- Mobile View -(./assets/images/mobile%20view%20screenshot.png)
+- Mobile View -![](./assets/images/mobile%20view%20screenshot.png)
 
 ### Links
 
